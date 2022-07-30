@@ -1,0 +1,13 @@
+.container {
+  background-color: rebeccapurple;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+}
+
+.items {
+  margin-top: 50px;
+}

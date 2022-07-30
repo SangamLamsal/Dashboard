@@ -1,0 +1,48 @@
+.container {
+  width: calc(100vw - 250px);
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.sitthere {
+  display: block;
+  background-color: black;
+  position: sticky;
+}
+.top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.left {
+  margin-right: auto;
+  color: antiquewhite;
+}
+
+.righter {
+  display: flex;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  margin: 15px;
+}
+
+.arrowalign {
+  transform: rotateX(180deg);
+}
+.bottom {
+  flex: 3;
+}
+
+.content {
+  margin: 50px;
+}
